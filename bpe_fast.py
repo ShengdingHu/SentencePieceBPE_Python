@@ -134,7 +134,6 @@ def tokenize_slow(text, merge_rules):
     split = list(text)
     # 遍历预定义的合并规则
     for pair, merge in merge_rules:
-        print(split)
         # 遍历所有单词的字符列表
         i = 0  # 初始化索引
         # 遍历当前单词的字符列表
@@ -148,6 +147,6 @@ def tokenize_slow(text, merge_rules):
     # 将所有单词的字符列表合并为一个大的字符列表，并返回
     return split
 
-print(merge_rules)
+print("merge_rules", merge_rules)
 tokenized_sentence = tokenize_slow("tokenization into tokens is fast", merge_rules=merge_rules)
-print(tokenized_sentence)
+print("tokenized_sentence", tokenized_sentence)
