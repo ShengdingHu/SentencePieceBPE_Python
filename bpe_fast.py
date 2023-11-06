@@ -1,6 +1,6 @@
 corpus = [
-    "This is the Hugging Face Course.\n",
-    "This chapter is about token token token tokenization.\n",
+    "This is the THU Course.\n",
+    "This chapter is about tokenization.\n",
     "This section shows several tokenizer algorithms.\n",
     "Hopefully, you will be able to understand how they are trained and generate tokens.\n",
 ]
